@@ -23,7 +23,11 @@
             </ul>
         </nav>
 		<main>
-			<p class="quote">Ooops... Page Not Found</p>
+            <figure class="oops">
+                <p><a href="index.php"><img src="./images/layers.png" alt="404 not found"/></a></p>
+                <p class="oops">Oops! I think we have something broken... </p>
+                <p class="oops">Can we try again?</p>
+            </figure>
 		</main>
         <footer>
 

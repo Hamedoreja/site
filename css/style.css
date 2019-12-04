@@ -149,5 +149,11 @@ footer div a{
 	color:#990033;
 	text-decoration:none;
 }
-
+.oops{
+	padding-top:3%;
+	color: white;
+	font-weight: 700;
+	font-size: 25px;
+	font-style: italic;
+}
 
