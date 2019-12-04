@@ -1,0 +1,80 @@
+
+@media screen and (min-width: 480px){
+	figure figcaption{
+	border-radius:25px;
+	text-align:center;
+	margin:0;
+	}	
+}
+
+@media screen and (min-width: 800px){
+	nav ul{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	}
+	nav ul li{
+	font:14pt verdana;
+	list-style-type:none;
+	width:20%;
+	padding:10px;
+	margin:2px 2px 5px 2px;
+	text-align:center;
+	background:#990033;
+	border-radius:25px 25px 0 0;
+	}	
+	main{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;	
+	align-items:center;
+	}
+	main div{
+	background:white;
+	border-radius:25px;
+	text-align:justify;
+	margin:10px;
+	}
+	main div article{
+		width:95%;
+	}
+	main article{
+	width:45%;
+	}
+	figure{
+	width:45%;
+	}
+	.quote{
+	width:45%;
+	padding:25px;
+	}
+	footer{
+	display:flex;
+	flex-direction:row;	
+	flex-wrap:wrap;
+	}
+	footer div{
+	width:45%;
+	margin:0;
+	}
+	footer div:first-child{
+	border-bottom:none;
+}
+}
+@media screen and (min-width: 1366px){
+	header{
+		width:35%;
+	}
+	header div{
+		align-self: center;
+	}
+	nav{
+		width:65%;
+		align-self:flex-end;
+	}
+	nav ul{
+		
+	} 
+	
+}
+
